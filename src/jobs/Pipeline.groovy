@@ -15,9 +15,6 @@
              steps {
                  shell('echo "Testing"')
              }
-             publishers {
-                 downstream("Startup Application1")
-             }
          }
          pipelineInstances(5)
          showAggregatedPipeline()
