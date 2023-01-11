@@ -41,5 +41,5 @@ def startupjob() {
             downstream("Startup Application1")
         }
     }
-    startupjob()
 }
+startupjob()
